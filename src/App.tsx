@@ -5,10 +5,6 @@ import './App.css';
 
 function App() {
   const [count, setCount] = useState(0);
-  const badFormatting = () => {
-    console.log('Oops');
-  };
-  let unusedVariable = 5; // eslint should warn about this
 
   return (
     <>
